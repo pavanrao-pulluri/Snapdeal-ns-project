@@ -55,7 +55,12 @@ const Cart = () => {
   return (
     <>
       <div
-        style={{ display: "flex", justifyItems: "end", marginLeft: "150px" }}
+        style={{
+          display: "flex",
+          justifyItems: "end",
+          marginLeft: "150px",
+          marginTop: "80px",
+        }}
       >
         <h1
           className="ui center aligned container"

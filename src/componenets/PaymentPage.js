@@ -18,7 +18,7 @@ const PaymentPage = () => {
   };
 
   return (
-    <div>
+    <div style={{ marginTop: "100px" }}>
       <h1 className="ui center aligned container" style={{ marginTop: "50px" }}>
         Payment Details
       </h1>

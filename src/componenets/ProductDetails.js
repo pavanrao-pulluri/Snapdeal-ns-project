@@ -31,7 +31,12 @@ const ProductDetails = () => {
         ></div>
       ) : (
         <div>
-          <h1 className="ui center aligned container ">Product Details</h1>
+          <h1
+            className="ui center aligned container "
+            style={{ marginTop: "100px" }}
+          >
+            Product Details
+          </h1>
           <hr />
           <div style={styles.container}>
             {/* <h1 style={styles.title}>Product Details</h1> */}
