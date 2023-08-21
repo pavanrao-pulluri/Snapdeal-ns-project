@@ -27,7 +27,7 @@ const Cart = () => {
             paddingBottom: "50px",
           }}
         >
-          <img src={product.image} alt={`Product: ${product.title}`} />
+          <img src={product.image} alt={product.title} />
         </div>
 
         <div className="header">{product.title}</div>

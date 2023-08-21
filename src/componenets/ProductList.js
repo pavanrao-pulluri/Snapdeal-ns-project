@@ -81,7 +81,7 @@ const ProductList = ({ searchTerm }) => {
           style={{ margin: "18% 0  20% 50%" }}
         ></div>
       ) : (
-        <div>
+        <div style={{ marginTop: "130px" }}>
           <h1
             className="ui center aligned container"
             style={{ marginTop: "30px" }}

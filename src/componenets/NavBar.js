@@ -35,8 +35,8 @@ const NavBar = ({ onSearch }) => {
       <div className="navbar-links">
         <Link className="navbar-link" to={"/cart"}>
           <i className="cart link icon"></i> Cart
-          <div style={{ position: "fixed", top: "18px", marginLeft: "5px" }}>
-            {cartProducts.length}
+          <div style={{ position: "absolute", top: "18px", marginLeft: "5px" }}>
+            <div style={{ position: "relative" }}>{cartProducts.length}</div>
           </div>
         </Link>
         <Link className="navbar-link" to={"/login"}>
